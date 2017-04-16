@@ -1,3 +1,7 @@
+## Run required libraries
+library(lubridate)
+library(dplyr)
+
 ## download, format, and read the file
 ## set the destination file path
 f <- file.path(getwd(), "hpc.zip")
